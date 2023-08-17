@@ -197,9 +197,13 @@ html {
 
 .enjoy_real1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   align-items: center;
   gap: 2rem;
+}
+
+.enjoy {
+  margin-top: 7rem;
 }
 
 .enjoytext_1 {
@@ -214,16 +218,89 @@ html {
 }
 
 .tv {
-  width: 80%;
+  width: 100%;
   justify-self: end;
 }
 
-.line2 {
+.watch-everywhere1 {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.watch-everywhere {
+  margin-top: 7rem;
+}
+
+.watchtext_1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+}
+
+.watchtext_2 {
+  font-size: 3rem;
+  line-height: 4rem;
+  color: rgba(214, 190, 190, 0.353);
+}
+
+.tv2 {
   width: 100%;
-  height: 0.5rem;
-  position: absolute;
-  bottom: -0.5rem;
-  background-color: rgb(35, 35, 35);
+  justify-self: end;
+}
+
+.any-everywhere1 {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.any-everywhere {
+  margin-top: 7rem;
+}
+
+.anytext_1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+}
+
+.anytext_2 {
+  font-size: 3rem;
+  line-height: 4rem;
+  color: rgba(214, 190, 190, 0.353);
+}
+
+.mobile {
+  width: 100%;
+  justify-self: end;
+}
+
+.kids-everywhere1 {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.kids-everywhere {
+  margin-top: 7rem;
+}
+
+.kidstext_1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+}
+
+.kidstext_2 {
+  font-size: 3rem;
+  line-height: 4rem;
+  color: rgba(214, 190, 190, 0.353);
+}
+
+.kids {
+  width: 100%;
+  justify-self: end;
 }
 
 .line {
@@ -232,5 +309,49 @@ html {
   position: absolute;
   bottom: -0.5rem;
   background-color: rgb(35, 35, 35);
-  top: 75%;
+}
+
+.frequently2 {
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button2 {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.735);
+  border-radius: 7px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.button2:active {
+  box-shadow: 0 0 0 0.86rem rgb(47, 33, 33);
+}
+
+.grid {
+  display: grid;
+
+  gap: 1.4rem;
+}
+
+.ele {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.top {
+  font-size: 2.1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.top1 {
+  margin-top: 4rem;
 }
