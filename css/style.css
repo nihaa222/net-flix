@@ -166,7 +166,7 @@ html {
   width: 35rem;
   border-radius: 7px;
   border: 2px;
-  background-color: rgba(0, 0, 0, 0.053);
+  background-color: rgba(0, 0, 0, 0.67);
   color: white;
   border: 1.8px solid rgba(255, 255, 255, 0.421);
 }
@@ -354,4 +354,33 @@ html {
 
 .top1 {
   margin-top: 4rem;
+}
+
+.question {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 9rem;
+  justify-items: end;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-items: start;
+  font-size: 1.7rem;
+}
+
+.footer a {
+  color: white; /* Change this color to your desired color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
 }
