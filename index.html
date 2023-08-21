@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -29,12 +30,12 @@
      
     <header class="header">
       <nav class="navigation">
-        <div class="logo">
+        <div  data-aos="zoom-in-right"data-aos-duration="3000" class="logo">
           <a href="#"
             ><img class="logo2" src="img/logo.png" alt="netflix logo"
           /></a>
         </div>
-        <div class="top_buttons">
+        <div data-aos="zoom-in-left"data-aos-duration="3000"class="top_buttons">
           <button class="english">
             <ion-icon  class ="icon" name="globe-outline"></ion-icon>
             <spam class="english-2">English</spam>
@@ -63,7 +64,8 @@
         
       <section class = "enjoy" >
         
-      <div class ="enjoy_real1 container">
+      <div  data-aos="fade-up"
+      data-aos-duration="3000" class ="enjoy_real1 container">
         <div class = "enjoy_real">
        <p class="enjoytext_1">
         Enjoy on your TV
@@ -79,7 +81,8 @@
     <!-- <div class="line2"></div> -->
    </section>
    <section class = "any-everywhere container">
-    <div class ="any-everywhere1">
+    <div  data-aos="fade-up"
+    data-aos-duration="3000" class ="any-everywhere1">
       <div class = "any-everywhere2">
      <p class="anytext_1">
       Download your shows to watch offline
@@ -96,7 +99,8 @@
   </section>
  
     <section class = "watch-everywhere container">
-      <div class ="watch-everywhere1">
+      <div  data-aos="fade-up"
+      data-aos-duration="4000"class ="watch-everywhere1">
         <div class = "watch-everywhere2">
        <p class="watchtext_1">
         Enjoy on your TV
@@ -113,7 +117,8 @@
     </section>
    
     <section class = "kids-everywhere container">
-      <div class ="kids-everywhere1">
+      <div data-aos="fade-up"
+      data-aos-duration="3000" class ="kids-everywhere1">
         <div class = "kids-everywhere2">
        <p class="kidstext_1">
         Create profiles for kids
@@ -134,7 +139,7 @@
       <p class ="frequently2">
         Frequently Asked Questions
       </p>
-      <div class = "grid">
+      <div   data-aos="flip-up" data-aos-duration="3000"class = "grid">
       
         <button class ="button2">
           <div class = "ele">What is Netflix?</div>
@@ -173,11 +178,11 @@
      
     </section>
 
-    <footer class="footer">
+    <footer  class="footer">
      
 
       <p class = "question">Questions? Call <u>000-800-919-1694</u></p>
-      <div class = "grid2">
+      <div  class = "grid2">
       <div class = "grid3">
         <a href = "#"><u>FAQ</u></a>
         <a href = "#"><u>Investor Relations</u></a>        
@@ -205,7 +210,9 @@
     </div>
     </footer>
     
-   
-  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
